@@ -1,11 +1,11 @@
 body {
-    background: linear-gradient(to right, #3d5b91, #2a5298); /* Fondo con gradiente */
+    background: linear-gradient(to right, #5e86d1, #1f4586); /* Fondo con gradiente */
     font-family: Arial, sans-serif;
-    color: #fff; 
+    color: #000000; 
 }
 
 .container {
-    background: rgba(3, 4, 4, 0.9); 
+    background: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border-radius: 10px; 
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar a.nav-link:hover {
-    color: #2a5298; 
+    color: #363636; 
     transform: scale(1.1); /* Efecto de zoom */
 }
 
@@ -44,7 +44,7 @@ h1, h2 {
 
 .integrante-card:hover {
     transform: scale(1.1); /* Efecto de zoom */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2); 
 }
 
 /* Estilo para imágenes */
@@ -54,7 +54,7 @@ h1, h2 {
     margin: 0 auto;
     overflow: hidden;
     border-radius: 12px; /* tipo de borde*/
-    border: 3px solid #000; /* Cambio de color del borde*/
+    border: 3px solid #020202; /* Cambio de color del borde*/
     position: relative;
 }
 
@@ -74,8 +74,16 @@ h5 {
 
 p {
     font-size: 1rem; /* Este es el tamaño de descripcion*/
-    color: #555; /* Color de descripción */
+    color: #000000; /* Color de descripción */
     text-align: center;
     margin: 0;
 }
 
+navbar-brand {
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+container-fluid {
+    background-color: #000000;
+}
