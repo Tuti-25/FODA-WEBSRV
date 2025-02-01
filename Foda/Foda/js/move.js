@@ -1,4 +1,3 @@
-// Mostrar el mensaje de bienvenida
 function showWelcomeMessage() {
     alert('¡Bienvenido al análisis FODA del grupo!');
 }
