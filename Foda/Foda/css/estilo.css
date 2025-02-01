@@ -1,132 +1,151 @@
 body {
-    background: linear-gradient(to right, #5e86d1, #1f4586); /* Fondo con gradiente */
-    font-family: Arial, sans-serif;
-    color: #000000; 
+  font-family: Arial, sans-serif;
+  color: #000000;
+  background-image: url("/Foda/Foda/img/linux.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #55555555;
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.9); 
-    padding: 20px;
-    border-radius: 10px; 
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  opacity: 1.5;
+  width: 60%;
+  height: 550px;
 }
 
 .navbar {
-    margin-bottom: 20px;
-    background-color: #343a40;
+  margin-bottom: 20px;
+  background-color: #343a40;
 }
 
 .navbar a.nav-link {
-    color: #ffffff;
-    font-size: 1.1rem;
-    transition: color 0.3s, transform 0.3s;
+  color: #ffffff;
+  font-size: 1.1rem;
+  transition: color 0.3s, transform 0.3s;
 }
 
 .navbar a.nav-link:hover {
-    color: #363636; 
-    transform: scale(1.1); /* Efecto de zoom */
+  color: #363636;
+  transform: scale(1.1); /* Efecto de zoom */
 }
 
-h1, h2 {
-    font-weight: bold;
+h1,
+h2 {
+  font-weight: bold;
 }
 
 /* parte integrantes */
 .integrante-card {
-    padding: 20px; 
-    transition: transform 0.3s, box-shadow 0.3s; /* Animación */
-    border: 2px solid #ccc; 
-    border-radius: 10px; 
-    background: #ffffff; 
-    max-width: 220px; 
-    margin: 20px auto; 
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #ffffff;
+  width: 220px;
+  margin: 20px auto;
+  height: 300px;
 }
 
 .integrante-card:hover {
-    transform: scale(1.1); /* Efecto de zoom */
-    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2); 
+  transform: scale(1.1); /* Efecto de zoom */
+  opacity: 2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilo para imágenes */
 .image-container {
-    width: 200px; 
-    height: 200px; 
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 12px; /* tipo de borde*/
-    border: 3px solid #020202; /* Cambio de color del borde*/
-    position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 12px; /* tipo de borde*/
+  border: 3px solid #020202; /* Cambio de color del borde*/
+  position: relative;
 }
 
 .image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* imagen */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* imagen */
 }
 
 h5 {
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 1.3rem; 
-    color: #333; 
-    text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #333;
+  text-align: center;
+  text-transform: ;
 }
 
 p {
-    font-size: 1rem; /* Este es el tamaño de descripcion*/
-    color: #000000; /* Color de descripción */
-    text-align: center;
-    margin: 0;
+  font-size: 1rem; /* Este es el tamaño de descripcion*/
+  color: #000000; /* Color de descripción */
+  text-align: center;
+  margin: 0;
+  font-weight: 400;
 }
 
 navbar-brand {
-    font-weight: bold;
-    background-color: #ffffff;
+  font-weight: bold;
+  background-color: #ffffff;
 }
 
 container-fluid {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 /* ----- Menú Lateral ----- */
 .offcanvas {
-    background-color: #343a40; /* Fondo oscuro */
-    color: #ffffff;
+  background-color: #343a40; /* Fondo oscuro */
+  color: #ffffff;
 }
 
 .offcanvas .offcanvas-title {
-    font-size: 1.5rem;
-    color: #ffffff;
-    font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .offcanvas .nav-link {
-    font-size: 1.2rem;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s, transform 0.3s;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .offcanvas .nav-link:hover {
-    background-color: #2a5298; /* Fondo azul al pasar el mouse */
-    color: #ffffff; /* Texto blanco */
-    transform: scale(1.05); /* Efecto de zoom */
+  background-color: #5f5f5f5f; /* Fondo azul al pasar el mouse */
+  color: #ffffff; /* Texto blanco */
+  transform: scale(1.05); /* Efecto de zoom */
 }
 
 .offcanvas .btn-close {
-    filter: brightness(0) invert(1); /* Botón cerrar blanco */
+  filter: brightness(0) invert(1); /* Botón cerrar blanco */
 }
 
-/* Botón de apertura del menú */
 .btn-primary {
-    background-color: #3d5b91;
-    border: none;
-    font-size: 1.2rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+  background-color: #41414141;
+  border: none;
+  font-size: 2rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  color: #111;
 }
 
 .btn-primary:hover {
-    background-color: #2a5298;
-    color: #ffffff;
-    transform: scale(1.1); /* Zoom suave al pasar el mouse */
+  background-color: #222222;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+/* TUTI */
+
+/* CAROUSEL */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #77777777;
+  border-radius: 10px;
 }
